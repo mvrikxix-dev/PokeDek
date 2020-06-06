@@ -19,6 +19,7 @@ const Signup = (props) => {
         event.preventDefault()
         const user = new User(username, email, password)
         localStorage.setItem(`${user.username}`, JSON.stringify(user))
+        props.setUsersState(user)
     }
 
     return(
