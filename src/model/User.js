@@ -5,7 +5,6 @@ function User(username, email, password) {
     this.username = username
     this.email = email
     this.password = password
-    this.isLoggedIn = false
     this.img = "img-url-pending"
     this.userStat = {
         backpack: [],
