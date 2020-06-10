@@ -4,7 +4,6 @@ import { useHistory } from 'react-router-dom';
 import './Form.css'
 
 const Signup = (props) => {
-    console.log(props)
     const history = useHistory()
     let username = ""
     let email = ""

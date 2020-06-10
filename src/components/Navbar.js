@@ -5,14 +5,14 @@ import './Navbar.css'
 const Navbar = (props) => {
     return (
     <Fragment>
-        <nav className="navbar">
+        <nav className="home-nav-container">
             <ul>
-                <li>
+                <li className="home-nav-elements">
                     <Link to='/signup' className="action-cont">
                         <button className="signup-Btn action-Btn">Sign Up</button>
                     </Link>
                 </li>
-                <li>
+                <li className="home-nav-elements">
                     <Link to='/signin' className="action-cont">
                         <button className="signin-Btn action-Btn">Sign In</button>
                     </Link>
